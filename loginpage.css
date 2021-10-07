@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  } 
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("images/alien.jpg");
+    height:100%;
+    width: auto;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+    /* Add styles to the form container */
+  .container1 {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 875px;
+        width: 400px;
+        height: 450px;
+        padding: 16px;
+        background-color: white;
+        font-family: Helvetica, sans-serif ;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd; 
+    outline: none;
+  }
+
+    
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px; 
+  }
+  
+  /* Set a style for the login button */
+  .btn1 {
+    background-color: rgb(8, 114, 8);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    float: left;
+    font-family:Helvetica, sans-serif;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  /* Set a style for create my account button */
+    .btn2 {
+    background-color:white;
+    border-style: solid;
+    color: green;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    opacity: 0.9;
+    float: left;
+    font-family:Helvetica, sans-serif;
+  }

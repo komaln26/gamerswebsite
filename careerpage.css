@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box
+  }
+  
+  .bg-img {
+    background-image: url("images/pcgaming.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    left: 20px;
+    bottom: 20px;
+    background-color: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 50px;
+  }
+  
+  .parallax {
+    background-image: url("images/multiplegamers.jpg");
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax1 {
+    /* The image used */
+    background-image: url("images/winninggame.jpg");
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headstyl{
+    color:#00FF00; 
+    text-shadow: 2px 2px 3px white;
+  }
+
+  .ulstyl{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+
+  .mid{
+    text-align: center;
+    width: auto;
+}
+
+  .toprightcorner{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2em; 
+    padding-top: 20px;
+    padding-right: 25px;
+  }
